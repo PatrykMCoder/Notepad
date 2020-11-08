@@ -99,10 +99,10 @@ public class Note {
                 new ProcessBuilder("cmd", "/c", "cls").inheritIO().start().waitFor();
             } else {
                 System.out.print("\033[H\033[2J");
+                System.out.flush();
             }
         } catch (InterruptedException | IOException e) {
             e.printStackTrace();
         }
-        System.out.flush();
     }
 }
