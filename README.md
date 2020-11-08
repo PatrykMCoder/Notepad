@@ -1,5 +1,5 @@
 # Notepad
-Notepad created in java [work in progres]
+Notepad created in Java [work in progres]
 
 
 # Documentation and description coming soon
