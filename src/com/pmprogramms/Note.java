@@ -26,7 +26,7 @@ public class Note {
                 =========================================================
                  1. Create
                  2. Open
-                 3. Exit
+                 3. Exit 
                 """, new Date(System.currentTimeMillis()));
         while (!exit) {
             System.out.println(menu);
